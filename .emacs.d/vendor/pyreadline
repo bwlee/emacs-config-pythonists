@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+      
+      <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+      <base href="http://pypi.python.org/pypi/pyreadline"/>
+      <title>pyreadline 1.7.1 : Python Package Index</title>
+      <meta content="readline,pyreadline"/>
+      <meta content="A python implmementation of GNU readline."/>
+       <link rel="alternate" type="application/rss+xml"
+             title="RSS: 40 latest updates"
+             href="http://pypi.python.org/pypi?:action=rss"/>
+       <link rel="alternate" type="application/rss+xml"
+             title="RSS: 40 newest packages"
+             href="http://pypi.python.org/pypi?:action=packages_rss"/>
+       <link media="screen" type="text/css"
+             id="screen-switcher-stylesheet"
+             rel="stylesheet"
+             href="http://www.python.org/styles/screen-switcher-default.css"/>
+       <link media="screen" type="text/css" rel="stylesheet"
+             href="http://www.python.org/styles/netscape4.css"/>
+       <link media="print" type="text/css" rel="stylesheet"
+             href="http://www.python.org/styles/print.css"/>
+       <link media="screen" type="text/css"
+             rel="alternate stylesheet" title="large text"
+             href="http://www.python.org/styles/largestyles.css"/>
+       <link media="screen" type="text/css"
+             rel="alternate stylesheet"
+             title="default fonts"
+             href="http://www.python.org/styles/defaultfonts.css"/>
+       <link rel="stylesheet" media="screen" href="/css/docutils.css" type="text/css"/>
+       <link rel="stylesheet" media="screen" href="/css/pygments.css" type="text/css"/>
+
+       <!-- allow pypi to override the standard pydotorg/docutils/etc. styles -->
+       <link rel="stylesheet" href="/css/pypi.css" type="text/css"/>
+       <link media="screen" rel="stylesheet" href="/css/pypi-screen.css" type="text/css"/>
+
+       
+ <meta name="keywords" content="readline,pyreadline"/>
+ <meta name="description"
+       content="A python implmementation of GNU readline."/>
+ <link rel="meta" title="DOAP" type="application/rdf+xml"
+       href="/pypi?:action=doap&amp;name=pyreadline&amp;version=1.7.1"/>
+ <style type="text/css">
+  table.form th {white-space: pre;}
+ </style>
+
+
+       <style type="text/css">
+       </style>
+    </head>
+    <body>
+     
+    
+      <!--  Logo  -->
+      <h1 id="logoheader">
+       <a accesskey="1" href="http://www.python.org" id="logolink">
+        
+        
+          <img alt="homepage" border="0" id="logo"
+               src="http://www.python.org/images/python-logo.gif"/>
+        
+       </a>
+      </h1>
+      <!--  Skip to Navigation  -->
+      <div class="skiptonav"><a accesskey="2" href="#left-hand-navigation"><img
+    alt="skip to navigation" border="0" id="skiptonav"
+    src="http://www.python.org/images/trans.gif"/></a></div>
+      <div class="skiptonav"><a accesskey="3" href="#content-body"><img
+    alt="skip to content" border="0" id="skiptocontent"
+    src="http://www.python.org/images/trans.gif"/></a></div>
+      <!--  Utility Menu  -->
+
+      <div id="utility-menu">
+        <!--  Search Box  -->
+        <div id="searchbox">
+          <form id="searchform" method="get"
+                name="searchform" action="/pypi">
+            <input type="hidden" name=":action" value="search"/>
+            <div id="search">
+              <input class="input-text" id="term" name="term"/>
+              <input class="input-button" type="submit" name="submit" value="search" id="submit"/>
+            </div>
+          </form>
+        </div>
+<!-- XXX: reinstate this       <div id="screen-switcher"></div> -->
+      </div>
+      <div id="left-hand-navigation">
+
+        <!--  Main Menu NEED LEVEL TWO HEADER AND FOOTER -->
+        <div id="menu">
+          <ul class="level-one">
+            <li class="selected">
+              <a class="selected" href="/pypi">Package Index</a>
+
+              <ul class="level-two">
+
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=browse">Browse&nbsp;packages</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=submit_form">Package&nbsp;submission</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=list_classifiers">List&nbsp;trove&nbsp;classifiers</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=index">List&nbsp;packages</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=rss">RSS&nbsp;(latest&nbsp;40&nbsp;updates)</a></li>
+                
+                
+                  <li class=""><a class="" href="/pypi?%3Aaction=packages_rss">RSS&nbsp;(newest&nbsp;40&nbsp;packages)</a></li>
+                
+		<li><a href="/pypi?:action=browse&amp;c=533&amp;show=all">Python 3 Packages</a></li>
+
+                <li><a href="http://wiki.python.org/moin/CheeseShopTutorial">PyPI Tutorial</a></li>
+
+                <li><a href="http://sourceforge.net/tracker/?group_id=66150&amp;atid=513504">PyPI
+                Support</a></li>
+                <li><a href="http://sourceforge.net/tracker/?group_id=66150&amp;atid=513503">PyPI
+                Bug Reports</a></li>
+                <li><a href="http://www.python.org/sigs/catalog-sig/">PyPI Discussion</a></li>
+                <li><a href="http://wiki.python.org/moin/CheeseShopDev">PyPI
+                Developer Info</a></li>
+              </ul>
+
+            </li>
+
+
+
+
+            <li class=""><a href="http://www.python.org/about" class="" title="About The Python Language">About</a>
+            </li><li class=""><a href="http://www.python.org/news" class="" title="">News</a>
+            </li><li class=""><a href="http://www.python.org/doc" class="" title="">Documentation</a>
+            </li><li class=""><a href="http://www.python.org/download" title="">Download</a>
+
+
+            </li><li class=""><a href="http://www.python.org/community" class="" title="">Community</a>
+            </li><li class=""><a href="http://www.python.org/psf" class="" title="Python Software Foundation">Foundation</a>
+            </li><li class=""><a href="http://www.python.org/dev" class="" title="Python Core Language Development">Core Development</a>
+            </li><li class=""><a href="http://www.python.org/links" class="" title="">Links</a>
+          </li>
+          </ul>
+        </div>
+
+      </div>
+      <div id="content-body">
+        <div id="body-main">
+          <div id="content">
+
+            <div id="breadcrumb">
+              <a href="/pypi">Package Index</a>
+              
+                <span class="breadcrumb-separator">&gt;</span>
+                <a href="/pypi/pyreadline/1.7.1">pyreadline 1.7.1</a>
+              
+
+            </div>
+
+            <div id="document-floating">
+
+            <div id="document-navigation" style="overflow-y: auto; max-height: 15em; overflow-x: hidden;">
+		
+                  <h4>Not Logged In</h4>
+
+                  <ul>
+		    
+                    <li><a href="/pypi?%3Aaction=login">Login</a></li>
+                    <li><a href="/pypi?%3Aaction=register_form">Register</a></li>
+                    <li><a href="/pypi?%3Aaction=forgotten_password_form">Lost Login?</a></li>
+		    <li>Use <a href="/pypi?:action=openid">OpenID</a>
+                      
+                        <a style="border: none;"
+                           href="/pypi?:action=login&amp;provider=Google"><img
+    width="16" height="16"
+    src="https://www.google.com/favicon.ico" alt="Google"
+    title="Google"/></a>
+                      
+                      
+                        <a style="border: none;"
+                           href="/pypi?:action=login&amp;provider=myOpenID"><img
+    width="16" height="16"
+    src="https://www.myopenid.com/favicon.ico"
+    alt="myOpenID" title="myOpenID"/></a>
+                      
+                      
+                        <a style="border: none;"
+                           href="/pypi?:action=login&amp;provider=Launchpad"><img
+    width="16" height="16"
+    src="https://launchpad.net/@@/launchpad.png"
+    alt="Launchpad" title="Launchpad"/></a>
+                      
+                    </li>
+                  </ul>
+
+		
+
+		
+
+            </div>
+        </div>
+        
+
+
+            <div class="section">
+              <h1>pyreadline 1.7.1</h1>
+
+              
+<div id="download-button">
+ 
+ <a class="button green" style="float:right;"
+    href="#downloads">Downloads &darr;</a>
+</div>
+
+<p style="font-style: italic">A python implmementation of GNU readline.</p>
+
+<p>
+   <a href="http://packages.python.org/pyreadline">Package Documentation</a>
+</p>
+
+
+
+
+
+
+<p>The pyreadline package is a python implementation of GNU readline functionality
+it is based on the ctypes based UNC readline package by Gary Bishop.
+It is not complete. It has been tested for use with windows 2000 and windows xp.</p>
+<p>Version 1.7.1 includes fixes for 64-bit windows, thanks to Christoph Gohlke for
+helping out.</p>
+<p>Version 1.7 will be the last release with compatibility with 2.4 and 2.5. The next
+major release will target 2.6, 2.7 and 3.x. The 1.7 series will only receive bugfixes
+from now on.</p>
+<dl class="docutils">
+<dt>Features:</dt>
+<dd><ul class="first simple">
+<li>keyboard text selection and copy/paste</li>
+<li>Shift-arrowkeys for text selection</li>
+<li>Control-c can be used for copy activate with allow_ctrl_c(True) in config file</li>
+<li>Double tapping ctrl-c will raise a KeyboardInterrupt, use ctrl_c_tap_time_interval(x)
+where x is your preferred tap time window, default 0.3 s.</li>
+<li>paste pastes first line of content on clipboard.</li>
+<li>ipython_paste, pastes tab-separated data as list of lists or numpy array if all data is numeric</li>
+<li>paste_mulitline_code pastes multi line code, removing any empty lines.</li>
+</ul>
+<p class="last">The latest development version is always available at the IPython subversion
+<a class="reference internal" href="#repository">repository</a>.</p>
+</dd>
+</dl>
+<span class="target" id="repository"></span>
+
+<a name="downloads">&nbsp;</a>
+<table class="list" style="margin-bottom: 10px;">
+<tr>
+  <th>File</th>
+  <th>Type</th>
+  <th>Py Version</th>
+  <th>Uploaded on</th>
+  <th style="text-align: right;">Size</th>
+  <th style="text-align: right;"># downloads</th>
+</tr>
+
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="http://pypi.python.org/packages/any/p/pyreadline/pyreadline-1.7.1.win-amd64.exe#md5=3b6fe4cf936a6094eac2ad793b311fe1">pyreadline-1.7.1.win-amd64.exe</a>
+      (<a title="MD5 Digest"
+          href="/pypi?:action=show_md5&amp;digest=3b6fe4cf936a6094eac2ad793b311fe1">md5</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    MS Windows installer
+  </td>
+  <td>
+    any
+  </td>
+  <td>2011-10-06</td>
+  <td style="text-align: right;">307KB</td>
+  <td style="text-align: right;">6167</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="http://pypi.python.org/packages/any/p/pyreadline/pyreadline-1.7.1.win32.exe#md5=ffe3987562d0891901ebccdd94933a39">pyreadline-1.7.1.win32.exe</a>
+      (<a title="MD5 Digest"
+          href="/pypi?:action=show_md5&amp;digest=ffe3987562d0891901ebccdd94933a39">md5</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    MS Windows installer
+  </td>
+  <td>
+    any
+  </td>
+  <td>2011-10-06</td>
+  <td style="text-align: right;">280KB</td>
+  <td style="text-align: right;">15291</td>
+
+</tr>
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="http://pypi.python.org/packages/source/p/pyreadline/pyreadline-1.7.1.zip#md5=293d4e8794f867c122d4290ccc84be8d">pyreadline-1.7.1.zip</a>
+      (<a title="MD5 Digest"
+          href="/pypi?:action=show_md5&amp;digest=293d4e8794f867c122d4290ccc84be8d">md5</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Source
+  </td>
+  <td>
+    
+  </td>
+  <td>2011-10-06</td>
+  <td style="text-align: right;">104KB</td>
+  <td style="text-align: right;">5052</td>
+
+</tr>
+
+<tr><td id="last" colspan="6"/></tr>
+  </table>
+
+<ul class="nodot">
+ <li>
+  <strong>Author:</strong>
+  <span>Jorgen Stenarson</span>
+ </li>
+
+ 
+
+ <li>
+  <strong>Documentation:</strong>
+  <a href="http://packages.python.org/pyreadline">pyreadline package documentation</a>
+ </li>
+
+<!-- The <th> elements below are a terrible terrible hack for setuptools -->
+ <li>
+  <strong>Home Page:</strong>
+  <!-- <th>Home Page -->
+  <a href="http://ipython.scipy.org/moin/PyReadline/Intro">http://ipython.scipy.org/moin/PyReadline/Intro</a>
+ </li>
+
+
+ 
+
+ <li>
+  <strong>Download URL:</strong>
+  <!-- <th>Download URL -->
+  <a href="https://launchpad.net/pyreadline/+download">https://launchpad.net/pyreadline/+download</a>
+ </li>
+
+
+ <li>
+  <strong>Keywords:</strong>
+  <span>readline,pyreadline</span>
+ </li>
+
+ <li>
+  <strong>License:</strong>
+  
+  
+  <span>BSD</span>
+  
+ </li>
+
+ <li>
+  <strong>Platform:</strong>
+  <span>Windows XP/2000/NT,Windows 95/98/ME</span>
+ </li>
+
+<!-- TODO: add link to products in follow dependencies... -->
+ 
+ 
+ 
+
+ <li>
+  <strong>Categories</strong>
+  <ul class="nodot">
+   <li>
+    <a href="/pypi?:action=browse&amp;c=5">Development Status :: 5 - Production/Stable</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=8">Environment :: Console</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=60">License :: OSI Approved :: BSD License</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=150">Operating System :: Microsoft :: Windows</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=529">Programming Language :: Python :: 2.4</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=530">Programming Language :: Python :: 2.5</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=531">Programming Language :: Python :: 2.6</a>
+   </li>
+   <li>
+    <a href="/pypi?:action=browse&amp;c=532">Programming Language :: Python :: 2.7</a>
+   </li>
+  </ul>
+ </li>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ <li>
+  <strong>Package Index Owner:</strong>
+  <span>jstenar</span>
+ </li>
+
+ 
+
+ <li>
+  <strong><a href="http://usefulinc.com/doap">DOAP</a> record:</strong>
+  <a href="/pypi?:action=doap&amp;name=pyreadline&amp;version=1.7.1">pyreadline-1.7.1.xml</a>
+ </li>
+
+</ul>
+
+
+
+
+
+            </div>
+
+
+          </div>
+          <div id="footer"><div id="credits">
+            <a href="http://www.python.org/about/website">Website maintained by the Python community</a><br/>
+            <a href="http://www.xs4all.com/" title="Web and email hosting provided by xs4all, Netherlands">hosting by xs4all</a> /
+            <a href="http://www.timparkin.co.uk/" title="Design by Tim Parkin, Yorkshire man, photographer and developer">design by Tim Parkin</a>
+          </div>
+          Copyright © 1990-2011, <a href="http://www.python.org/psf">Python Software Foundation</a><br/>
+          <a href="http://www.python.org/about/legal">Legal Statements</a>
+
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+
