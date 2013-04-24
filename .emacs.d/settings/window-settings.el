@@ -7,8 +7,8 @@
 
 ; don't show the startup screen
 (setq inhibit-startup-screen t)
-; don't show the menu bar
-(menu-bar-mode nil)
+; don't show the menu bar ;; I prefer menu bar, in case forgetting some key bindings
+;(menu-bar-mode nil)
 ; don't show the tool bar
 (require 'tool-bar)
 (tool-bar-mode nil)
