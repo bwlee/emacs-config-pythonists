@@ -16,4 +16,8 @@
 (require 'window-settings)
 (require 'cursor-settings)
 (require 'text-settings)
-(require 'color-theme-settings)
+;; color theme folder missing, btw, I don't like the color inside it when I tried,  
+;; if you need, download from here http://ftp.twaren.net/Unix/NonGNU//color-theme/color-theme-6.6.0.tar.gz, 
+;; and unzip to your ~/.emacs.d/, 
+;; then umcommend the line below
+;(require 'color-theme-settings)
