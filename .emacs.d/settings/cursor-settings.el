@@ -8,7 +8,7 @@
 (highlight-current-line-on t)
 
 ;; To customize the background color
-(set-face-background 'highlight-current-line-face "brown")
+(set-face-background 'highlight-current-line-face "lightyellow")
 
 ; don't blink the cursor
 (blink-cursor-mode nil)
