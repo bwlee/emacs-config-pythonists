@@ -1,0 +1,44 @@
+;;lambda-mode
+(add-to-list 'load-path "~/.emacs.d/lambda")
+(require 'lambda-mode)
+(add-hook 'python-mode-hook  #'lambda-mode 1)
+
+;; ipython
+(add-to-list 'load-path "~/.emacs.d/ipython")
+(setq py-install-directory ".emacs.d/ipython")
+(require 'python-mode)
+(setq py-shell-name "ipython")
+
+(require 'ipython)
+;;(setq py-python-command-args '("--pylab" "--colors" "LightBG"))
+
+
+;; emacs act as server when %edit used in ipython shell
+(defvar server-buffer-clients)
+(when (and (fboundp 'server-start) (string-equal (getenv "TERM") 'xterm))
+  (server-start)
+  (defun fp-kill-server-with-buffer-routine ()
+    (and server-buffer-clients (server-done)))
+  (add-hook 'kill-buffer-hook 'fp-kill-server-with-buffer-routine))
+
+;; anything complete with ipython
+(add-to-list 'load-path "~/.emacs.d/anything")
+(require 'anything)
+(require 'anything-ipython)
+(when (require 'anything-show-completion nil t)
+     (use-anything-show-completion 'anything-ipython-complete
+                                   '(length initial-pattern)))
+(add-hook 'python-mode-hook #'(lambda ()
+                                (define-key py-mode-map (kbd "M-<tab>") 'anything-ipython-complete)))
+(add-hook 'ipython-shell-hook #'(lambda ()
+                                  (define-key py-mode-map (kbd "M-<tab>") 'anything-ipython-complete)))
+
+;; ipdb
+(defun annotate-pdb ()
+  (interactive)
+  (highlight-lines-matching-regexp "import ipdb")
+  (highlight-lines-matching-regexp "ipdb.set_trace()"))
+
+(add-hook 'python-mode-hook 'annotate-pdb)
+
+(provide 'ipython-mode)

@@ -18,4 +18,12 @@
 (require 'paren)
 (show-paren-mode t)
 
+;; delete trailing spaces when saving file
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+;; yasnippet
+(add-to-list 'load-path  "~/.emacs.d/vendor/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+
 (provide 'text-settings)

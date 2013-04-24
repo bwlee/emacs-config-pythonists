@@ -3,7 +3,7 @@
 ;------------;
 
 ; highlight the current line
-(add-to-list 'load-path "~/.emacs.d/highlight-current-line-0.57")
+(add-to-list 'load-path "~/.emacs.d/vendor/highlight-current-line")
 (require 'highlight-current-line)
 (highlight-current-line-on t)
 

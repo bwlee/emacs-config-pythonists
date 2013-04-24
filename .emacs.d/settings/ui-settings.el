@@ -4,6 +4,7 @@
 
 ; always use spaces, not tabs, when indenting
 (setq indent-tabs-mode nil)
+(setq default-tab-width 4)
  
 ; ignore case when searching
 (setq case-fold-search t)
