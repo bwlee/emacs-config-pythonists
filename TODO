@@ -6,6 +6,8 @@ TODO
 
 2. add quick access to python doc
    unfortunately, pylookup and python-info cannot be fetched now, is there any other choice?
+   -- finally I used pydoc-info from el-get
+
 
 3. add invokion to python testing framework, nose
    will use nosemacs,  any advice?
